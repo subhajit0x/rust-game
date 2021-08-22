@@ -2,6 +2,7 @@ version: "3.9"
 
 services:
   app:
-    image: rust:1.40
+    build: ./
+    command: ["./bin/entrypoint.sh"]
     volumes:
       - .:/app:delegated
