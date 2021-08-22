@@ -7,8 +7,20 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Install host dependencies
 RUN apt-get update -qy \
     && apt-get install -y \
+    alsa-oss \
+    alsa-utils \
     libasound2-dev \
+    libegl1 \
+    libgl1 \
+    libglvnd0 \
+    libglx0 \
     libudev-dev \
+    libx11-6 \
+    libx11-xcb1 \
+    libxcursor-dev \
+    libxext6 \
+    libxi6 \
+    libxrandr2 \
     # Cleaning cache:
     && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
     && apt-get clean -y && rm -rf /var/lib/apt/lists/*
