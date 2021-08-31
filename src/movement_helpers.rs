@@ -5,6 +5,8 @@ use rand::{
     Rng,
 };
 use crate::config::{GRID_CELL_SIZE, GRID_SIZE};
+use ggez::graphics::mint;
+use ggez::mint::Point2;
 
 #[derive(Clone, Copy, PartialEq, Eq, Debug)]
 pub struct GridPosition {
@@ -54,6 +56,14 @@ impl From<GridPosition> for graphics::Rect {
             GRID_CELL_SIZE.0 as i32,
             GRID_CELL_SIZE.1 as i32,
         )
+    }
+}
+
+impl From<GridPosition> for Point2<f32> {
+    fn from(pos: GridPosition) -> Self {
+        let coords: [f32; 2] = [(pos.x * GRID_CELL_SIZE.0) as f32, (pos.y * GRID_CELL_SIZE.1) as f32];
+        let point: Point2<f32> = coords.into();
+        point
     }
 }
 

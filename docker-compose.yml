@@ -5,6 +5,7 @@ services:
     build: ./
     command: [ "./bin/entrypoint.sh" ]
     network_mode: "host"
+    env_file: .env.${ENV:-local}
     devices:
       - /dev/snd
     environment:

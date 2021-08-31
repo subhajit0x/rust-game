@@ -790,7 +790,7 @@ dependencies = [
  "gfx_core",
  "gfx_device_gl",
  "gilrs",
- "glam",
+ "glam 0.15.2",
  "glutin",
  "glyph_brush",
  "image",
@@ -869,6 +869,12 @@ checksum = "3abb554f8ee44336b72d522e0a7fe86a29e09f839a36022fa869a7dfe941a54b"
 dependencies = [
  "mint",
 ]
+
+[[package]]
+name = "glam"
+version = "0.18.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "525a3e490ba77b8e326fb67d4b44b4bd2f920f44d4cc73ccec50adc68e3bee34"
 
 [[package]]
 name = "glob"
@@ -2006,6 +2012,7 @@ name = "rust_game"
 version = "0.1.0"
 dependencies = [
  "ggez",
+ "glam 0.18.0",
  "rand",
 ]
 
