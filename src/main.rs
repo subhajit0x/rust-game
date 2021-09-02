@@ -7,7 +7,7 @@ mod assets;
 
 use ggez::{event, graphics, Context, GameResult};
 use std::time::{Duration, Instant};
-use crate::config::{MILLIS_PER_UPDATE, SCREEN_SIZE, GRID_SIZE};
+use crate::config::{MILLIS_PER_UPDATE, SCREEN_SIZE, GRID_SIZE, GRID_CELL_SIZE};
 use crate::nexus::Nexus;
 use crate::enemy::Enemy;
 use crate::assets::Assets;
@@ -74,10 +74,10 @@ impl GameState {
     }
 }
 
-fn draw_map(assets: &mut Assets, ctx: &mut Context,  map_json: &mut serde_json::Value) {
+fn draw_map(assets: &mut Assets, ctx: &mut Context, map_json: &mut serde_json::Value) {
     for x in 0..GRID_SIZE.0 {
         for y in 0..GRID_SIZE.1 {
-            let key = format!("{x}_{y}", x=x, y=y);
+            let key = format!("{x}_{y}", x = x, y = y);
             let image = assets.get_tile_image(map_json[key]["sprite"].to_string());
             let dest: ggez::mint::Point2<f32> = GridPosition::new(x as f32, y as f32).into();
             // let offset: ggez::mint::Point2<f32> = GridPosition::new(4, 4).into();
@@ -154,6 +154,13 @@ impl event::EventHandler<ggez::GameError> for GameState {
 
     fn mouse_button_down_event(&mut self, ctx: &mut Context, _button: MouseButton, _x: f32, _y: f32) {
         println!("_button: {:?}, _x: {}, _y: {}", _button, _x, _y);
+        let click_pos: GridPosition = (_x / GRID_CELL_SIZE.0 as f32, _y / GRID_CELL_SIZE.0 as f32).into();
+        for tower in self.towers.iter_mut() {
+            if tower.is_clicking_on(click_pos) {
+                println!("clicking on tower");
+                tower.upgrade();
+            }
+        }
     }
 }
 

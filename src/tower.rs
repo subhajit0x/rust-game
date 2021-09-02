@@ -21,6 +21,10 @@ impl Tower {
         }
     }
 
+    pub fn is_clicking_on(&self, click_pos: GridPosition) -> bool {
+        self.borders.is_it_in(click_pos)
+    }
+
     pub fn upgrade(&mut self) {
         self.level += 1;
     }

@@ -36,11 +36,7 @@ impl Enemy {
         let checkpoint: (i16, i16) = CHECKPOINTS[self.checkpoint_index];
         let div: (f32, f32) = (current_position.0 - checkpoint.0 as f32, current_position.1 - checkpoint.1 as f32);
 
-        return if div.0 < 0.0 { Some(Direction::Right) }
-        else if div.0 > 0.0 { Some(Direction::Left) }
-        else if div.1 < 0.0 { Some(Direction::Down) }
-        else if div.1 > 0.0 { Some(Direction::Up) }
-        else { None };
+        return if div.0 < 0.0 { Some(Direction::Right) } else if div.0 > 0.0 { Some(Direction::Left) } else if div.1 < 0.0 { Some(Direction::Down) } else if div.1 > 0.0 { Some(Direction::Up) } else { None };
     }
 
     fn step(&mut self) {
