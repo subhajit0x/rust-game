@@ -43,7 +43,7 @@ impl Assets {
         let nexus_image = graphics::Image::new(ctx, "/71.png")?;
         let heart_image = graphics::Image::new(ctx, "/71.png")?;
         let enemy_image = graphics::Image::new(ctx, "/71.png")?;
-        let tower_image = graphics::Image::new(ctx, "/71.png")?;
+        let tower_image = graphics::Image::new(ctx, "/tower.png")?;
         let rocket_image = graphics::Image::new(ctx, "/71.png")?;
 
         // let font = graphics::Font::new(ctx, "/font.ttf")?;
@@ -74,6 +74,10 @@ impl Assets {
             &mut self.default_enemy
             // panic!("The sprite {} was not found in the assets list", sprite_name);
         };
+    }
+
+    pub(crate) fn get_tower_image(&mut self) -> &graphics::Image {
+        &mut self.tower_image
     }
 
     pub(crate) fn get_tile_image(&mut self, mut sprite_name: String) -> &graphics::Image {

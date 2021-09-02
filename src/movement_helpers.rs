@@ -122,3 +122,21 @@ impl Direction {
         return rand::random();
     }
 }
+
+pub struct RectangleBorder {
+    top_left_corner: GridPosition,
+    bot_right_corner: GridPosition,
+}
+
+impl RectangleBorder {
+    pub fn new(top_left_corner: GridPosition, bot_right_corner: GridPosition) -> Self {
+        RectangleBorder { top_left_corner, bot_right_corner }
+    }
+
+    pub fn is_it_in(&self, it: GridPosition) -> bool { // :)
+        return !(it.x < self.top_left_corner.x
+            || it.x > self.bot_right_corner.x
+            || it.y < self.top_left_corner.y
+            || it.y > self.bot_right_corner.y);
+    }
+}

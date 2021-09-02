@@ -16,14 +16,16 @@ use std::{env, fs};
 use std::path;
 use ggez::graphics::Color;
 use serde_json;
-use crate::movement_helpers::GridPosition;
+use crate::movement_helpers::{GridPosition, RectangleBorder};
 use ggez::input::mouse::MouseButton;
+use crate::tower::Tower;
 
 struct GameState {
     assets: Assets,
     map_json: serde_json::Value,
     nexus: Nexus,
     enemies: VecDeque<Enemy>,
+    towers: Vec<Tower>,
     score: f32,
     ticks: i32,
     gameover: bool,
@@ -38,11 +40,23 @@ impl GameState {
         let map_json: serde_json::Value = serde_json::from_reader(map_json_file)
             .expect("file should be proper JSON");
 
+
+        let towers: Vec<Tower> = vec![
+            Tower::new((16, 8).into()),
+            Tower::new((32, 8).into()),
+            Tower::new((48, 8).into()),
+            Tower::new((52, 16).into()),
+            Tower::new((32, 15).into()),
+            Tower::new((32, 24).into()),
+            Tower::new((48, 24).into()),
+        ];
+
         Ok(GameState {
             assets,
             map_json,
             nexus: Nexus::new((16, 19).into(), 3),
             enemies: VecDeque::new(),
+            towers,
             score: 0.0,
             ticks: 0,
             gameover: false,
@@ -123,8 +137,13 @@ impl event::EventHandler<ggez::GameError> for GameState {
             let assets = &mut self.assets;
             let map_json = &mut self.map_json;
             draw_map(assets, ctx, map_json);
+
             for enemy in self.enemies.iter() {
                 enemy.draw(ctx, assets)?;
+            }
+
+            for tower in self.towers.iter() {
+                tower.draw(ctx, assets)?;
             }
         }
 
