@@ -5,13 +5,15 @@ use ggez::{Context, ContextBuilder, GameResult};
 use std::collections::HashMap;
 
 pub struct Assets {
+    towers: HashMap<String, graphics::Image>,
+    default_tower: graphics::Image,
     tiles: HashMap<String, graphics::Image>,
+    default_tile: graphics::Image,
     enemies: HashMap<String, graphics::Image>,
     default_enemy: graphics::Image,
     nexus_image: graphics::Image,
     heart_image: graphics::Image,
     enemy_image: graphics::Image,
-    tower_image: graphics::Image,
     // font: graphics::Font,
     rocket_image: graphics::Image,
     // rocket_sound: audio::Source,
@@ -38,12 +40,17 @@ impl Assets {
         enemies.insert("slime_green".to_string(), graphics::Image::new(ctx, "/slime_blue.png")?);
         enemies.insert("slime_orange".to_string(), graphics::Image::new(ctx, "/slime_blue.png")?);
 
+        let mut towers: HashMap<String, graphics::Image> = HashMap::new();
+        towers.insert("tower_1".to_string(), graphics::Image::new(ctx, "/tower_1.png")?);
+        towers.insert("tower_3".to_string(), graphics::Image::new(ctx, "/tower_3.png")?);
+        towers.insert("tower_5".to_string(), graphics::Image::new(ctx, "/tower_5.png")?);
 
+        let default_tile = graphics::Image::new(ctx, "/default_tile.png")?;
         let default_enemy = graphics::Image::new(ctx, "/default_enemy.png")?;
-        let nexus_image = graphics::Image::new(ctx, "/71.png")?;
+        let default_tower = graphics::Image::new(ctx, "/tower_disabled.png")?;
+        let nexus_image = graphics::Image::new(ctx, "/nexus.png")?;
         let heart_image = graphics::Image::new(ctx, "/71.png")?;
         let enemy_image = graphics::Image::new(ctx, "/71.png")?;
-        let tower_image = graphics::Image::new(ctx, "/tower.png")?;
         let rocket_image = graphics::Image::new(ctx, "/71.png")?;
 
         // let font = graphics::Font::new(ctx, "/font.ttf")?;
@@ -52,13 +59,15 @@ impl Assets {
         // let enemy_hit_sound = audio::Source::new(ctx, "/pew.ogg")?;
 
         Ok(Assets {
+            towers,
+            default_tower,
             tiles,
+            default_tile,
             enemies,
             default_enemy,
             nexus_image,
             heart_image,
             enemy_image,
-            tower_image,
             // font,
             rocket_image,
             // rocket_sound,
@@ -76,15 +85,34 @@ impl Assets {
         };
     }
 
-    pub(crate) fn get_tower_image(&mut self) -> &graphics::Image {
-        &mut self.tower_image
+    pub(crate) fn get_nexus_image(&mut self) -> &graphics::Image {
+        &self.nexus_image
+    }
+
+    pub(crate) fn get_tower_image(&mut self, level: i32) -> &graphics::Image {
+        let sprite_name = if level >= 5 {
+            "tower_5"
+        } else if level >= 3 {
+            "tower_3"
+        } else if level >= 1 {
+            "tower_1"
+        } else {
+            "tower_disabled"
+        };
+
+        return if let Some(x) = self.towers.get_mut(&sprite_name.to_string()) {
+            x
+        } else {
+            &mut self.default_tower
+            // panic!("The sprite {} was not found in the assets list", sprite_name);
+        };
     }
 
     pub(crate) fn get_tile_image(&mut self, mut sprite_name: String) -> &graphics::Image {
         return if let Some(x) = self.tiles.get_mut(&sprite_name) {
             x
         } else {
-            &mut self.nexus_image
+            &mut self.default_tile
             // panic!("The sprite {} was not found in the assets list", sprite_name);
         };
     }

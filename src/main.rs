@@ -41,7 +41,7 @@ impl GameState {
         let map_json: serde_json::Value = serde_json::from_reader(map_json_file)
             .expect("file should be proper JSON");
 
-
+        let nexus: Nexus = Nexus::new(10);
         let towers: Vec<Tower> = vec![
             Tower::new((16, 8).into()),
             Tower::new((32, 8).into()),
@@ -55,7 +55,7 @@ impl GameState {
         Ok(GameState {
             assets,
             map_json,
-            nexus: Nexus::new((16, 19).into(), 3),
+            nexus,
             enemies: VecDeque::new(),
             towers,
             score: 0.0,
@@ -122,11 +122,12 @@ impl event::EventHandler<ggez::GameError> for GameState {
                 for tower in self.towers.iter() {
                     total_damage += tower.get_damage();
                 }
+
                 // for now all enemies will be with one speed
                 // when this logic is changed make sure to update this code
                 // DAMAGE ALL FRONT ENEMIES
                 while total_damage > 0 && !self.enemies.is_empty() {
-                    let front_enemy = self.enemies.front_mut().unwrap();;
+                    let front_enemy = self.enemies.front_mut().unwrap();
                     let front_enemy_health: i32 = front_enemy.get_health();
                     let health_to_reduce: i32 = min(front_enemy_health, total_damage);
                     front_enemy.reduce_health(health_to_reduce);
@@ -168,6 +169,8 @@ impl event::EventHandler<ggez::GameError> for GameState {
             for tower in self.towers.iter() {
                 tower.draw(ctx, assets)?;
             }
+
+            self.nexus.draw(ctx, assets)?;
         }
 
         graphics::present(ctx)?;
