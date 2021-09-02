@@ -8,10 +8,10 @@ use crate::config::{GRID_CELL_SIZE, GRID_SIZE};
 use ggez::graphics::mint;
 use ggez::mint::Point2;
 
-#[derive(Clone, Copy, PartialEq, Eq, Debug)]
+#[derive(Clone, Copy, PartialEq, Debug)]
 pub struct GridPosition {
-    x: i16,
-    y: i16,
+    x: f32,
+    y: f32,
 }
 
 trait ModuloSigned {
@@ -29,21 +29,16 @@ impl<T> ModuloSigned for T
 }
 
 impl GridPosition {
-    pub fn new(x: i16, y: i16) -> Self {
+    pub fn new(x: f32, y: f32) -> Self {
         GridPosition { x, y }
     }
 
-    pub fn random(max_x: i16, max_y: i16) -> Self {
-        let mut rng = rand::thread_rng();
-        (rng.gen_range(0..max_x), rng.gen_range(0..max_y)).into()
-    }
-
-    pub fn new_from_move(pos: GridPosition, dir: Direction, speed: i16) -> Self {
+    pub fn new_from_move(pos: GridPosition, dir: Direction, speed: f32) -> Self {
         match dir {
-            Direction::Up => GridPosition::new(pos.x, (pos.y - speed).modulo(GRID_SIZE.1)),
-            Direction::Down => GridPosition::new(pos.x, (pos.y + speed).modulo(GRID_SIZE.1)),
-            Direction::Left => GridPosition::new((pos.x - speed).modulo(GRID_SIZE.0), pos.y),
-            Direction::Right => GridPosition::new((pos.x + speed).modulo(GRID_SIZE.0), pos.y),
+            Direction::Up => GridPosition::new(pos.x, (pos.y - speed)),
+            Direction::Down => GridPosition::new(pos.x, (pos.y + speed)),
+            Direction::Left => GridPosition::new((pos.x - speed), pos.y),
+            Direction::Right => GridPosition::new((pos.x + speed), pos.y),
         }
     }
 }
@@ -61,7 +56,7 @@ impl From<GridPosition> for graphics::Rect {
 
 impl From<GridPosition> for Point2<f32> {
     fn from(pos: GridPosition) -> Self {
-        let coords: [f32; 2] = [(pos.x * GRID_CELL_SIZE.0) as f32, (pos.y * GRID_CELL_SIZE.1) as f32];
+        let coords: [f32; 2] = [pos.x * GRID_CELL_SIZE.0 as f32, pos.y * GRID_CELL_SIZE.1 as f32];
         let point: Point2<f32> = coords.into();
         point
     }
@@ -69,6 +64,12 @@ impl From<GridPosition> for Point2<f32> {
 
 impl From<(i16, i16)> for GridPosition {
     fn from(pos: (i16, i16)) -> Self {
+        GridPosition { x: pos.0 as f32, y: pos.1 as f32 }
+    }
+}
+
+impl From<(f32, f32)> for GridPosition {
+    fn from(pos: (f32, f32)) -> Self {
         GridPosition { x: pos.0, y: pos.1 }
     }
 }
@@ -76,6 +77,12 @@ impl From<(i16, i16)> for GridPosition {
 impl From<GridPosition> for (i16, i16) {
     fn from(pos: GridPosition) -> Self {
         (pos.x as i16, pos.y as i16)
+    }
+}
+
+impl From<GridPosition> for (f32, f32) {
+    fn from(pos: GridPosition) -> Self {
+        (pos.x, pos.y)
     }
 }
 

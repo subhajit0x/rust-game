@@ -79,7 +79,7 @@ fn draw_map(assets: &mut Assets, ctx: &mut Context,  map_json: &mut serde_json::
         for y in 0..GRID_SIZE.1 {
             let key = format!("{x}_{y}", x=x, y=y);
             let image = assets.get_tile_image(map_json[key]["sprite"].to_string());
-            let dest: ggez::mint::Point2<f32> = GridPosition::new(x, y).into();
+            let dest: ggez::mint::Point2<f32> = GridPosition::new(x as f32, y as f32).into();
             // let offset: ggez::mint::Point2<f32> = GridPosition::new(4, 4).into();
             let drawparams = graphics::DrawParam::new()
                 .dest(dest);

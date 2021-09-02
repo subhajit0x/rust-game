@@ -16,7 +16,7 @@ const CHECKPOINTS: [(i16, i16); 7] = [
 pub struct Enemy {
     checkpoint_index: usize,
     position: GridPosition,
-    speed: i16,
+    speed: f32,
     health: i16,
 }
 
@@ -26,28 +26,25 @@ impl Enemy {
             checkpoint_index: 0,
             position: STARTING_POINT.into(),
             health,
-            speed: 1,
+            speed: 1.0,
         }
     }
 
     fn get_direction(&self) -> Option<Direction> {
-        let current_position: (i16, i16) = self.position.into();
+        let current_position: (f32, f32) = self.position.into();
         let checkpoint: (i16, i16) = CHECKPOINTS[self.checkpoint_index];
-        let div = (current_position.0 - checkpoint.0, current_position.1 - checkpoint.1);
+        let div: (f32, f32) = (current_position.0 - checkpoint.0 as f32, current_position.1 - checkpoint.1 as f32);
 
-        if div.0 != 0 && div.1 != 0 {
-            panic!("Invalid direction");
-        }
-
-        return if div.0 < 0 { Some(Direction::Right) }
-        else if div.0 > 0 { Some(Direction::Left) }
-        else if div.1 < 0 { Some(Direction::Down) }
-        else if div.1 > 0 { Some(Direction::Up) }
+        return if div.0 < 0.0 { Some(Direction::Right) }
+        else if div.0 > 0.0 { Some(Direction::Left) }
+        else if div.1 < 0.0 { Some(Direction::Down) }
+        else if div.1 > 0.0 { Some(Direction::Up) }
         else { None };
     }
 
     fn step(&mut self) {
         let new_direction: Option<Direction> = self.get_direction();
+
         if new_direction.is_none() {
             self.checkpoint_index += 1;
             return;

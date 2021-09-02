@@ -10,12 +10,12 @@ pub struct Tower {
 
 impl Tower {
     pub fn new(position: GridPosition) -> Self {
-        let pos: (i16, i16) = position.into();
-        let offset_render_position = GridPosition::new(pos.0 - 2, pos.1 - 4);
+        let pos: (f32, f32) = position.into();
+        let offset_render_position = GridPosition::new(pos.0 - 2.0, pos.1 - 4.0);
 
         Tower {
             render_position: offset_render_position,
-            borders: RectangleBorder::new((pos.0 - 1, pos.1 - 1).into(), (pos.0 + 1, pos.1 + 1).into()),
+            borders: RectangleBorder::new((pos.0 - 1.0, pos.1 - 1.0).into(), (pos.0 + 1.0, pos.1 + 1.0).into()),
             level: 0,
         }
     }
