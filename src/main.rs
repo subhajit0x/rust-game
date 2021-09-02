@@ -112,7 +112,7 @@ impl event::EventHandler<ggez::GameError> for GameState {
     fn update(&mut self, _ctx: &mut Context) -> GameResult {
         if Instant::now() - self.last_update >= Duration::from_millis(MILLIS_PER_UPDATE) {
             if !self.gameover {
-                if self.ticks % 5 == 0 {
+                if self.ticks % 7 == 0 {
                     let enemy = Enemy::new(10);
                     self.enemies.push_back(enemy);
                 }

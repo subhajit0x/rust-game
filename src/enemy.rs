@@ -1,6 +1,7 @@
 use ggez::{graphics, Context, GameResult};
 use crate::movement_helpers::{GridPosition, Direction};
 use crate::assets::Assets;
+use ggez::graphics::Color;
 
 const STARTING_POINT: (i16, i16) = (0, 4);
 const CHECKPOINTS: [(i16, i16); 7] = [
@@ -59,13 +60,18 @@ impl Enemy {
     }
 
     pub fn draw(&self, ctx: &mut Context, assets: &mut Assets) -> GameResult {
-        let image = assets.get_enemy_image("default".to_string());
-        let dest: ggez::mint::Point2<f32> = self.position.into();
-        // let offset: ggez::mint::Point2<f32> = GridPosition::new(4, 4).into();
-        let drawparams = graphics::DrawParam::new()
-            .dest(dest);
-        // .offset(offset);
-        graphics::draw(ctx, image, drawparams);
+        let current_position: (f32, f32) = self.position.into();
+        let enemy_sprite = assets.get_enemy_image("default".to_string());
+        let enemy_sprite_dest: ggez::mint::Point2<f32> = self.position.into();
+        let enemy_draw_params = graphics::DrawParam::new().dest(enemy_sprite_dest);
+
+        let health_position: GridPosition = (current_position.0 - 1 as f32, current_position.1 + 3 as f32).into();
+        let health_str = format!("Health: {}", self.health);
+        let health_display = graphics::Text::new((health_str));
+        let health_dest: ggez::mint::Point2<f32> = health_position.into();
+
+        graphics::draw(ctx, enemy_sprite, enemy_draw_params);
+        graphics::draw(ctx, &health_display, (health_dest, 0.0, Color::WHITE))?;
         Ok(())
     }
 }
