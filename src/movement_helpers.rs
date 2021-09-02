@@ -38,12 +38,12 @@ impl GridPosition {
         (rng.gen_range(0..max_x), rng.gen_range(0..max_y)).into()
     }
 
-    pub fn new_from_move(pos: GridPosition, dir: Direction) -> Self {
+    pub fn new_from_move(pos: GridPosition, dir: Direction, speed: i16) -> Self {
         match dir {
-            Direction::Up => GridPosition::new(pos.x, (pos.y - 1).modulo(GRID_SIZE.1)),
-            Direction::Down => GridPosition::new(pos.x, (pos.y + 1).modulo(GRID_SIZE.1)),
-            Direction::Left => GridPosition::new((pos.x - 1).modulo(GRID_SIZE.0), pos.y),
-            Direction::Right => GridPosition::new((pos.x + 1).modulo(GRID_SIZE.0), pos.y),
+            Direction::Up => GridPosition::new(pos.x, (pos.y - speed).modulo(GRID_SIZE.1)),
+            Direction::Down => GridPosition::new(pos.x, (pos.y + speed).modulo(GRID_SIZE.1)),
+            Direction::Left => GridPosition::new((pos.x - speed).modulo(GRID_SIZE.0), pos.y),
+            Direction::Right => GridPosition::new((pos.x + speed).modulo(GRID_SIZE.0), pos.y),
         }
     }
 }
@@ -70,6 +70,12 @@ impl From<GridPosition> for Point2<f32> {
 impl From<(i16, i16)> for GridPosition {
     fn from(pos: (i16, i16)) -> Self {
         GridPosition { x: pos.0, y: pos.1 }
+    }
+}
+
+impl From<GridPosition> for (i16, i16) {
+    fn from(pos: GridPosition) -> Self {
+        (pos.x as i16, pos.y as i16)
     }
 }
 

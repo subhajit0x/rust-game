@@ -1,241 +1,21 @@
 use ggez::{graphics, Context, GameResult};
 use crate::movement_helpers::{GridPosition, Direction};
+use crate::assets::Assets;
 
-const MOVE_PATTERN: [(i16, i16); 223] = [
-    (0, 5),
-    (1, 5),
-    (2, 5),
-    (3, 5),
-    (4, 5),
-    (5, 5),
-    (6, 5),
-    (7, 5),
-    (8, 5),
-    (9, 5),
-    (10, 5),
-    (11, 5),
-    (12, 5),
-    (13, 5),
-    (14, 5),
-    (15, 5),
-    (16, 5),
-    (17, 5),
-    (18, 5),
-    (19, 5),
-    (20, 5),
-    (21, 5),
-    (22, 5),
-    (23, 5),
-    (24, 5),
-    (25, 5),
-    (26, 5),
-    (27, 5),
-    (28, 5),
-    (29, 5),
-    (30, 5),
-    (31, 5),
-    (32, 5),
-    (33, 5),
-    (34, 5),
-    (35, 5),
-    (36, 5),
-    (37, 5),
-    (38, 5),
-    (39, 5),
-    (40, 5),
-    (41, 5),
-    (42, 5),
-    (43, 5),
-    (44, 5),
-    (45, 5),
-    (46, 5),
-    (47, 5),
-    (48, 5),
-    (49, 5),
-    (50, 5),
-    (51, 5),
-    (52, 5),
-    (53, 5),
-    (54, 5),
-    (55, 5),
-    (56, 5),
-
-    (56, 6),
-    (56, 7),
-    (56, 8),
-    (56, 9),
-    (56, 10),
-    (56, 11),
-    (56, 12),
-    (56, 13),
-    (56, 14),
-    (56, 15),
-    (56, 16),
-    (56, 17),
-    (56, 18),
-    (56, 19),
-    (56, 20),
-    (56, 21),
-    (56, 22),
-    (56, 23),
-    (56, 24),
-    (56, 25),
-    (56, 26),
-    (56, 27),
-    (56, 28),
-
-    (55, 28),
-    (54, 28),
-    (53, 28),
-    (52, 28),
-    (51, 28),
-    (50, 28),
-    (49, 28),
-    (48, 28),
-    (47, 28),
-    (46, 28),
-    (45, 28),
-    (44, 28),
-    (43, 28),
-    (42, 28),
-    (41, 28),
-    (40, 28),
-    (39, 28),
-    (38, 28),
-    (37, 28),
-    (36, 28),
-    (35, 28),
-    (34, 28),
-    (33, 28),
-    (32, 28),
-    (31, 28),
-    (30, 28),
-    (29, 28),
-    (28, 28),
-    (27, 28),
-    (26, 28),
-    (25, 28),
-    (24, 28),
-    (23, 28),
-    (22, 28),
-    (21, 28),
-    (20, 28),
-    (19, 28),
-    (18, 28),
-    (17, 28),
-    (16, 28),
-    (15, 28),
-    (14, 28),
-    (13, 28),
-    (12, 28),
-    (11, 28),
-    (10, 28),
-    (9, 28),
-    (8, 28),
-
-    (8, 27),
-    (8, 26),
-    (8, 25),
-    (8, 24),
-    (8, 23),
-    (8, 22),
-    (8, 21),
-    (8, 20),
-    (8, 19),
-    (8, 18),
-    (8, 17),
-    (8, 16),
-    (8, 15),
-    (8, 14),
-    (8, 13),
-    (8, 12),
-    (8, 11),
-
-    (9, 11),
-    (10, 11),
-    (11, 11),
-    (12, 11),
-    (13, 11),
-    (14, 11),
-    (15, 11),
-    (16, 11),
-    (17, 11),
-    (18, 11),
-    (19, 11),
-    (20, 11),
-    (21, 11),
-    (22, 11),
-    (23, 11),
-    (24, 11),
-    (25, 11),
-    (26, 11),
-    (27, 11),
-    (28, 11),
-    (29, 11),
-    (30, 11),
-    (31, 11),
-    (32, 11),
-    (33, 11),
-    (34, 11),
-    (35, 11),
-    (36, 11),
-    (37, 11),
-    (38, 11),
-    (39, 11),
-    (40, 11),
-    (41, 11),
-    (42, 11),
-    (43, 11),
-    (44, 11),
-    (45, 11),
-    (46, 11),
-    (47, 11),
-    (48, 11),
-
-    (48, 12),
-    (48, 13),
-    (48, 14),
-    (48, 15),
-    (48, 16),
-    (48, 17),
-    (48, 18),
-    (48, 19),
-
-    (48, 19),
-
-    (47, 19),
-    (46, 19),
-    (45, 19),
-    (44, 19),
-    (43, 19),
-    (42, 19),
-    (41, 19),
-    (40, 19),
-    (39, 19),
-    (38, 19),
-    (37, 19),
-    (36, 19),
-    (35, 19),
-    (34, 19),
-    (33, 19),
-    (32, 19),
-    (31, 19),
-    (30, 19),
-    (29, 19),
-    (28, 19),
-    (27, 19),
-    (26, 19),
-    (25, 19),
-    (24, 19),
-    (23, 19),
-    (22, 19),
-    (21, 19),
-    (20, 19),
-    (19, 19),
+const STARTING_POINT: (i16, i16) = (0, 4);
+const CHECKPOINTS: [(i16, i16); 7] = [
+    (55, 4),
+    (55, 27),
+    (7, 27),
+    (7, 10),
+    (47, 10),
+    (47, 18),
+    (19, 18),
 ];
 
 pub struct Enemy {
-    pattern_index: usize,
+    checkpoint_index: usize,
+    position: GridPosition,
     speed: i16,
     health: i16,
 }
@@ -243,34 +23,52 @@ pub struct Enemy {
 impl Enemy {
     pub fn new(health: i16) -> Self {
         Enemy {
-            pattern_index: 0,
+            checkpoint_index: 0,
+            position: STARTING_POINT.into(),
             health,
             speed: 1,
         }
     }
 
-    fn get_position(&self) -> GridPosition {
-        let pos_tuple = MOVE_PATTERN[self.pattern_index];
-        return GridPosition::new(pos_tuple.0, pos_tuple.1)
+    fn get_direction(&self) -> Option<Direction> {
+        let current_position: (i16, i16) = self.position.into();
+        let checkpoint: (i16, i16) = CHECKPOINTS[self.checkpoint_index];
+        let div = (current_position.0 - checkpoint.0, current_position.1 - checkpoint.1);
+
+        if div.0 != 0 && div.1 != 0 {
+            panic!("Invalid direction");
+        }
+
+        return if div.0 < 0 { Some(Direction::Right) }
+        else if div.0 > 0 { Some(Direction::Left) }
+        else if div.1 < 0 { Some(Direction::Down) }
+        else if div.1 > 0 { Some(Direction::Up) }
+        else { None };
     }
 
     fn step(&mut self) {
-        self.pattern_index += 1;
+        let new_direction: Option<Direction> = self.get_direction();
+        if new_direction.is_none() {
+            self.checkpoint_index += 1;
+            return;
+        }
+
+        let new_position: GridPosition = GridPosition::new_from_move(self.position, new_direction.unwrap(), self.speed);
+        self.position = new_position;
     }
 
     pub fn update(&mut self) {
         self.step()
     }
 
-    pub fn draw(&self, ctx: &mut Context) -> GameResult {
-        let mesh = graphics::MeshBuilder::new()
-            .rectangle(
-                graphics::DrawMode::fill(),
-                self.get_position().into(),
-                graphics::Color::new(1.0, 0.0, 0.0, 1.0),
-            )?
-            .build(ctx)?;
-        graphics::draw(ctx, &mesh, graphics::DrawParam::default())?;
+    pub fn draw(&self, ctx: &mut Context, assets: &mut Assets) -> GameResult {
+        let image = assets.get_enemy_image("default".to_string());
+        let dest: ggez::mint::Point2<f32> = self.position.into();
+        // let offset: ggez::mint::Point2<f32> = GridPosition::new(4, 4).into();
+        let drawparams = graphics::DrawParam::new()
+            .dest(dest);
+        // .offset(offset);
+        graphics::draw(ctx, image, drawparams);
         Ok(())
     }
 }

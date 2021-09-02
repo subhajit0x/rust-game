@@ -17,6 +17,7 @@ use std::path;
 use ggez::graphics::Color;
 use serde_json;
 use crate::movement_helpers::GridPosition;
+use ggez::input::mouse::MouseButton;
 
 struct GameState {
     assets: Assets,
@@ -118,19 +119,22 @@ impl event::EventHandler<ggez::GameError> for GameState {
 
     fn draw(&mut self, ctx: &mut Context) -> GameResult {
         graphics::clear(ctx, Color::BLACK);
-
         {
             let assets = &mut self.assets;
             let map_json = &mut self.map_json;
             draw_map(assets, ctx, map_json);
             for enemy in self.enemies.iter() {
-                enemy.draw(ctx)?;
+                enemy.draw(ctx, assets)?;
             }
         }
 
         graphics::present(ctx)?;
         ggez::timer::yield_now();
         Ok(())
+    }
+
+    fn mouse_button_down_event(&mut self, ctx: &mut Context, _button: MouseButton, _x: f32, _y: f32) {
+        println!("_button: {:?}, _x: {}, _y: {}", _button, _x, _y);
     }
 }
 

@@ -4,8 +4,10 @@ use ggez::graphics::{self, Color};
 use ggez::{Context, ContextBuilder, GameResult};
 use std::collections::HashMap;
 
-pub(crate) struct Assets {
+pub struct Assets {
     tiles: HashMap<String, graphics::Image>,
+    enemies: HashMap<String, graphics::Image>,
+    default_enemy: graphics::Image,
     nexus_image: graphics::Image,
     heart_image: graphics::Image,
     enemy_image: graphics::Image,
@@ -31,6 +33,13 @@ impl Assets {
         tiles.insert("70".to_string(), graphics::Image::new(ctx, "/70.png")?);
         tiles.insert("71".to_string(), graphics::Image::new(ctx, "/71.png")?);
 
+        let mut enemies: HashMap<String, graphics::Image> = HashMap::new();
+        enemies.insert("slime_blue".to_string(), graphics::Image::new(ctx, "/slime_blue.png")?);
+        enemies.insert("slime_green".to_string(), graphics::Image::new(ctx, "/slime_blue.png")?);
+        enemies.insert("slime_orange".to_string(), graphics::Image::new(ctx, "/slime_blue.png")?);
+
+
+        let default_enemy = graphics::Image::new(ctx, "/default_enemy.png")?;
         let nexus_image = graphics::Image::new(ctx, "/71.png")?;
         let heart_image = graphics::Image::new(ctx, "/71.png")?;
         let enemy_image = graphics::Image::new(ctx, "/71.png")?;
@@ -44,6 +53,8 @@ impl Assets {
 
         Ok(Assets {
             tiles,
+            enemies,
+            default_enemy,
             nexus_image,
             heart_image,
             enemy_image,
@@ -56,8 +67,16 @@ impl Assets {
         })
     }
 
+    pub(crate) fn get_enemy_image(&mut self, mut sprite_name: String) -> &graphics::Image {
+        return if let Some(x) = self.enemies.get_mut(&sprite_name) {
+            x
+        } else {
+            &mut self.default_enemy
+            // panic!("The sprite {} was not found in the assets list", sprite_name);
+        };
+    }
+
     pub(crate) fn get_tile_image(&mut self, mut sprite_name: String) -> &graphics::Image {
-        println!("sprite_name: {}", sprite_name);
         return if let Some(x) = self.tiles.get_mut(&sprite_name) {
             x
         } else {
