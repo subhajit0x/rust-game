@@ -6,7 +6,7 @@ use ggez::graphics::Color;
 pub struct Tower {
     render_position: GridPosition,
     borders: RectangleBorder,
-    level: i16,
+    level: i32,
 }
 
 impl Tower {
@@ -23,6 +23,10 @@ impl Tower {
 
     pub fn is_clicking_on(&self, click_pos: GridPosition) -> bool {
         self.borders.is_it_in(click_pos)
+    }
+
+    pub fn get_damage(&self) -> i32 {
+        self.level * 2
     }
 
     pub fn upgrade(&mut self) {

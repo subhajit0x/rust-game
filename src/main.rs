@@ -19,6 +19,7 @@ use serde_json;
 use crate::movement_helpers::{GridPosition, RectangleBorder};
 use ggez::input::mouse::MouseButton;
 use crate::tower::Tower;
+use std::cmp::min;
 
 struct GameState {
     assets: Assets,
@@ -112,13 +113,35 @@ impl event::EventHandler<ggez::GameError> for GameState {
     fn update(&mut self, _ctx: &mut Context) -> GameResult {
         if Instant::now() - self.last_update >= Duration::from_millis(MILLIS_PER_UPDATE) {
             if !self.gameover {
+                // update enemies
+                for enemy in self.enemies.iter_mut() {
+                    enemy.update();
+                }
+
+                let mut total_damage: i32 = 0;
+                for tower in self.towers.iter() {
+                    total_damage += tower.get_damage();
+                }
+                // for now all enemies will be with one speed
+                // when this logic is changed make sure to update this code
+                // DAMAGE ALL FRONT ENEMIES
+                while total_damage > 0 && !self.enemies.is_empty() {
+                    let front_enemy = self.enemies.front_mut().unwrap();;
+                    let front_enemy_health: i32 = front_enemy.get_health();
+                    let health_to_reduce: i32 = min(front_enemy_health, total_damage);
+                    front_enemy.reduce_health(health_to_reduce);
+
+                    total_damage -= health_to_reduce;
+
+                    if !front_enemy.is_alive() {
+                        self.enemies.pop_front();
+                    }
+                }
+
+                // spawn the next enemy if its time to do so
                 if self.ticks % 7 == 0 {
                     let enemy = Enemy::new(10);
                     self.enemies.push_back(enemy);
-                }
-
-                for enemy in self.enemies.iter_mut() {
-                    enemy.update();
                 }
 
                 // Check if any new enemies have hit the nexus - if so reduce its health
@@ -157,7 +180,6 @@ impl event::EventHandler<ggez::GameError> for GameState {
         let click_pos: GridPosition = (_x / GRID_CELL_SIZE.0 as f32, _y / GRID_CELL_SIZE.0 as f32).into();
         for tower in self.towers.iter_mut() {
             if tower.is_clicking_on(click_pos) {
-                println!("clicking on tower");
                 tower.upgrade();
             }
         }

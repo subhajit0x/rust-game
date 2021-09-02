@@ -18,11 +18,11 @@ pub struct Enemy {
     checkpoint_index: usize,
     position: GridPosition,
     speed: f32,
-    health: i16,
+    health: i32,
 }
 
 impl Enemy {
-    pub fn new(health: i16) -> Self {
+    pub fn new(health: i32) -> Self {
         Enemy {
             checkpoint_index: 0,
             position: STARTING_POINT.into(),
@@ -53,6 +53,18 @@ impl Enemy {
 
     pub fn update(&mut self) {
         self.step()
+    }
+
+    pub fn reduce_health(&mut self, reduce_by: i32) {
+        self.health -= reduce_by;
+    }
+
+    pub fn get_health(&self) -> i32 {
+        self.health
+    }
+
+    pub fn is_alive(&self) -> bool {
+        return self.health > 0;
     }
 
     pub fn draw(&self, ctx: &mut Context, assets: &mut Assets) -> GameResult {
