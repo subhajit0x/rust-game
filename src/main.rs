@@ -29,7 +29,9 @@ struct GameState {
     nexus: Nexus,
     enemies: VecDeque<Enemy>,
     towers: Vec<Tower>,
-    score: f32,
+    score: i32,
+    honey: i32,
+    lives: i32,
     ticks: i32,
     gameover: bool,
     last_update: Instant,
@@ -63,7 +65,9 @@ impl GameState {
             enemies: VecDeque::new(),
             score_board,
             towers,
-            score: 0.0,
+            score: 0,
+            honey: 100,
+            lives: 3,
             ticks: 0,
             gameover: false,
             last_update: Instant::now(),
@@ -152,7 +156,17 @@ impl event::EventHandler<ggez::GameError> for GameState {
 
                 // Check if any new enemies have hit the nexus - if so reduce its health
                 // if the health is leq than 0 stop the game
-                // if self.enemies.
+                let first_enemy = self.enemies.front_mut();
+                if first_enemy.is_some() {
+                    if self.nexus.is_enemy_in(first_enemy.unwrap().get_position()) {
+                        self.lives -= 1;
+                        self.enemies.pop_front();
+                    }
+                }
+
+                if self.lives <= 0 {
+                    self.gameover = true;
+                }
             }
             self.last_update = Instant::now();
             self.ticks = self.ticks + 1;
@@ -176,7 +190,7 @@ impl event::EventHandler<ggez::GameError> for GameState {
             }
 
             self.nexus.draw(ctx, assets)?;
-            self.score_board.draw(ctx, assets, 3, 3, 1000)?;
+            self.score_board.draw(ctx, assets, self.score, self.lives, self.honey)?;
         }
 
         graphics::present(ctx)?;
@@ -189,6 +203,14 @@ impl event::EventHandler<ggez::GameError> for GameState {
         let click_pos: GridPosition = (_x / GRID_CELL_SIZE.0 as f32, _y / GRID_CELL_SIZE.0 as f32).into();
         for tower in self.towers.iter_mut() {
             if tower.is_clicking_on(click_pos) {
+                let honey_to_upgrade: i32 = tower.honey_to_upgrade();
+
+                if honey_to_upgrade > self.honey {
+                    // if the user doesn't have enough money nothing happens
+                    return
+                }
+
+                self.honey -= honey_to_upgrade;
                 tower.upgrade();
             }
         }

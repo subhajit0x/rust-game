@@ -1,11 +1,12 @@
 use ggez::{graphics, Context, GameResult};
-use crate::movement_helpers::{GridPosition};
+use crate::movement_helpers::{GridPosition, RectangleBorder};
 use crate::assets::Assets;
 
 pub struct Nexus {
     position: GridPosition,
     render_position: GridPosition,
     health: i16,
+    pub borders: RectangleBorder,
 }
 
 impl Nexus {
@@ -13,8 +14,13 @@ impl Nexus {
         Nexus {
             position: (16, 19).into(),
             render_position: (13.5, 16.5).into(),
+            borders: RectangleBorder::new((13, 15).into(), (17, 21).into()),
             health,
         }
+    }
+
+    pub fn is_enemy_in(&self, enemy_pos: GridPosition) -> bool {
+        self.borders.is_it_in(enemy_pos)
     }
 
     pub fn update(&mut self) {}

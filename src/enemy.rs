@@ -11,7 +11,7 @@ const CHECKPOINTS: [(i16, i16); 7] = [
     (7, 10),
     (47, 10),
     (47, 18),
-    (19, 18),
+    (14, 18),
 ];
 
 pub struct Enemy {
@@ -65,6 +65,10 @@ impl Enemy {
 
     pub fn is_alive(&self) -> bool {
         return self.health > 0;
+    }
+
+    pub fn get_position(&self) -> GridPosition {
+        self.position
     }
 
     pub fn draw(&self, ctx: &mut Context, assets: &mut Assets) -> GameResult {

@@ -21,6 +21,10 @@ impl Tower {
         }
     }
 
+    pub fn honey_to_upgrade(&self) -> i32 {
+        (self.level * self.level + 1) * 100
+    }
+
     pub fn is_clicking_on(&self, click_pos: GridPosition) -> bool {
         self.borders.is_it_in(click_pos)
     }
@@ -40,7 +44,7 @@ impl Tower {
         let tower_draw_params = graphics::DrawParam::new().dest(tower_sprite_dest);
 
         let upgrade_position: GridPosition = (current_position.0 - 1.0, current_position.1 + 2.0).into();
-        let upgrade_str = format!("Price: {}", self.level * 100);
+        let upgrade_str = format!("Price: {}", self.honey_to_upgrade());
         let upgrade_display = graphics::Text::new((upgrade_str));
         let upgrade_dest: ggez::mint::Point2<f32> = upgrade_position.into();
 
