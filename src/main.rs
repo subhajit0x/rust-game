@@ -4,6 +4,7 @@ mod tower;
 mod enemy;
 mod movement_helpers;
 mod assets;
+mod score_board;
 
 use ggez::{event, graphics, Context, GameResult};
 use std::time::{Duration, Instant};
@@ -20,6 +21,7 @@ use crate::movement_helpers::{GridPosition, RectangleBorder};
 use ggez::input::mouse::MouseButton;
 use crate::tower::Tower;
 use std::cmp::min;
+use crate::score_board::ScoreBoard;
 
 struct GameState {
     assets: Assets,
@@ -31,6 +33,7 @@ struct GameState {
     ticks: i32,
     gameover: bool,
     last_update: Instant,
+    score_board: ScoreBoard,
 }
 
 impl GameState {
@@ -41,6 +44,7 @@ impl GameState {
         let map_json: serde_json::Value = serde_json::from_reader(map_json_file)
             .expect("file should be proper JSON");
 
+        let score_board = ScoreBoard::new();
         let nexus: Nexus = Nexus::new(10);
         let towers: Vec<Tower> = vec![
             Tower::new((16, 8).into()),
@@ -57,6 +61,7 @@ impl GameState {
             map_json,
             nexus,
             enemies: VecDeque::new(),
+            score_board,
             towers,
             score: 0.0,
             ticks: 0,
@@ -171,6 +176,7 @@ impl event::EventHandler<ggez::GameError> for GameState {
             }
 
             self.nexus.draw(ctx, assets)?;
+            self.score_board.draw(ctx, assets, 3, 3, 1000)?;
         }
 
         graphics::present(ctx)?;

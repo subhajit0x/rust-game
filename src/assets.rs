@@ -11,14 +11,14 @@ pub struct Assets {
     default_tile: graphics::Image,
     enemies: HashMap<String, graphics::Image>,
     default_enemy: graphics::Image,
+    score_label: graphics::Image,
     nexus_image: graphics::Image,
-    heart_image: graphics::Image,
-    enemy_image: graphics::Image,
     // font: graphics::Font,
-    rocket_image: graphics::Image,
     // rocket_sound: audio::Source,
     // nexus_hit_sound: audio::Source,
     // enemy_hit_sound: audio::Source,
+    honey_image: graphics::Image,
+    heart_image: graphics::Image,
 }
 
 impl Assets {
@@ -48,10 +48,10 @@ impl Assets {
         let default_tile = graphics::Image::new(ctx, "/default_tile.png")?;
         let default_enemy = graphics::Image::new(ctx, "/default_enemy.png")?;
         let default_tower = graphics::Image::new(ctx, "/tower_disabled.png")?;
+        let score_label = graphics::Image::new(ctx, "/score_label.png")?;
+        let honey_image = graphics::Image::new(ctx, "/honey.png")?;
+        let heart_image = graphics::Image::new(ctx, "/heart.png")?;
         let nexus_image = graphics::Image::new(ctx, "/nexus.png")?;
-        let heart_image = graphics::Image::new(ctx, "/71.png")?;
-        let enemy_image = graphics::Image::new(ctx, "/71.png")?;
-        let rocket_image = graphics::Image::new(ctx, "/71.png")?;
 
         // let font = graphics::Font::new(ctx, "/font.ttf")?;
         // let rocket_sound = audio::Source::new(ctx, "/pew.ogg")?;
@@ -65,11 +65,11 @@ impl Assets {
             default_tile,
             enemies,
             default_enemy,
+            score_label,
             nexus_image,
+            honey_image,
             heart_image,
-            enemy_image,
             // font,
-            rocket_image,
             // rocket_sound,
             // nexus_hit_sound,
             // enemy_hit_sound,
@@ -87,6 +87,18 @@ impl Assets {
 
     pub(crate) fn get_nexus_image(&mut self) -> &graphics::Image {
         &self.nexus_image
+    }
+
+    pub(crate) fn get_score_label_image(&mut self) -> &graphics::Image {
+        &self.score_label
+    }
+
+    pub(crate) fn get_honey_image(&mut self) -> &graphics::Image {
+        &self.honey_image
+    }
+
+    pub(crate) fn get_heart_image(&mut self) -> &graphics::Image {
+        &self.heart_image
     }
 
     pub(crate) fn get_tower_image(&mut self, level: i32) -> &graphics::Image {
