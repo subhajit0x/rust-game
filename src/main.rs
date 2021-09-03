@@ -86,14 +86,14 @@ fn draw_map(assets: &mut Assets, ctx: &mut Context, map_json: &mut serde_json::V
             let draw_params = graphics::DrawParam::new()
                 .dest(dest);
 
+            let key = &format!("{x}_{y}", x = x, y = y);
+
             {
-                let key = format!("{x}_{y}", x = x, y = y);
                 let tile_image = assets.get_tile_image(map_json[key]["sprite"].to_string());
                 graphics::draw(ctx, tile_image, draw_params);
             }
 
             {
-                let key = format!("{x}_{y}", x = x, y = y);
                 let decor: &Value = &map_json[key]["decor"];
                 if !decor.is_null() {
                     let decor_image = assets.get_decor_image(decor.to_string());
@@ -224,7 +224,7 @@ impl event::EventHandler<ggez::GameError> for GameState {
 
                 if honey_to_upgrade > self.honey {
                     // if the user doesn't have enough money nothing happens
-                    return
+                    return;
                 }
 
                 self.honey -= honey_to_upgrade;
