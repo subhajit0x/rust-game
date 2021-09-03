@@ -6,7 +6,7 @@ from typing import Union
 from PIL import Image
 from enum import Enum
 
-PATH = "./src/resources/map_schema.png"
+PATH = "./src/resources/map.png"
 WIDTH = 64
 HEIGHT = 32
 
@@ -38,32 +38,20 @@ def get_color(pixel):
 
 tiles = {
     "grass": {
-        "default": [
-            "generic-rpg-tile70",
-        ]
-    },
-    "tower": {
-        "default": [
-            "generic-rpg-tile65",
-        ],
-        "top_grass": "generic-rpg-tile-waterfall06",
-        "right_top_corner_grass": "generic-rpg-tile-waterfall05",
-        "left_top_corner_grass": "generic-rpg-tile-waterfall07",
+        "default": [70]
     },
     "road": {
-        "default": [
-            "generic-rpg-tile71",
-        ],
+        "default": [71],
         "grass": {
-            "up": "generic-rpg-tile06",
-            "down": "generic-rpg-tile44",
-            "left": "generic-rpg-tile14",
-            "right": "generic-rpg-tile48",
+            "up": 6,
+            "down": 44,
+            "left": 14,
+            "right": 48,
             "corner": {
-                "up_right": "generic-rpg-tile33",
-                "up_left": "generic-rpg-tile19",
-                "down_right": "generic-rpg-tile62",
-                "down_left": "generic-rpg-tile57",
+                "up_right": 33,
+                "up_left": 19,
+                "down_right": 62,
+                "down_left": 57,
             },
         }
     },
@@ -103,16 +91,22 @@ def get_sprite(center, left, right, up, down):
         # road
         if up and get_color(up) == Color.GREEN:
             sprite = tiles["road"]["grass"]["up"]
+            if right and get_color(right) == Color.GREEN:
+                sprite = tiles["road"]["grass"]["corner"]["up_right"]
+            elif left and get_color(left) == Color.GREEN:
+                sprite = tiles["road"]["grass"]["corner"]["up_left"]
         elif down and get_color(down) == Color.GREEN:
             sprite = tiles["road"]["grass"]["down"]
+            if right and get_color(right) == Color.GREEN:
+                sprite = tiles["road"]["grass"]["corner"]["down_right"]
+            elif left and get_color(left) == Color.GREEN:
+                sprite = tiles["road"]["grass"]["corner"]["down_left"]
         elif left and get_color(left) == Color.GREEN:
             sprite = tiles["road"]["grass"]["left"]
         elif right and get_color(right) == Color.GREEN:
             sprite = tiles["road"]["grass"]["right"]
     elif get_color(center) == Color.GREEN:
         sprite = random.choice(tiles["grass"]["default"])
-    elif get_color(center) == Color.BLUE:
-        sprite = random.choice(tiles["tower"]["default"])
     return sprite
 
 
@@ -135,12 +129,26 @@ def iter_generate_map(loaded_image):
                 left=left,
                 right=right,
             )
+            chance = random.uniform(0, 1)
+            decor = None
+
+            if 0.95 <= chance < 0.96:
+                decor = 101
+            if 0.96 <= chance < 0.97:
+                decor = 102
+            if 0.97 <= chance < 0.98:
+                decor = 103
+            if 0.98 <= chance < 0.99:
+                decor = 104
+            if 0.99 <= chance <= 1:
+                decor = 105
 
             yield {
                 "pos_x": x,
                 "pos_y": y,
                 "color": center_color,
                 "sprite": sprite,
+                "decor": center_color == Color.GREEN and decor or None,
             }
 
 
@@ -154,7 +162,10 @@ def main():
     for tile in iter_generate_map(loaded_image):
         pos_x = tile["pos_x"]
         pos_y = tile["pos_y"]
-        map_dict.update({f"{pos_x}_{pos_y}": {"sprite": tile["sprite"]}})
+        map_dict.update({f"{pos_x}_{pos_y}": {
+            "sprite": tile["sprite"],
+            "decor": tile["decor"],
+        }})
 
     print(json.dumps(map_dict, indent=2))
 

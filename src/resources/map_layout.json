@@ -1,6146 +1,8194 @@
 {
   "0_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "8_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "9_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "32_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "44_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "48_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "49_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "52_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "56_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "57_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_0": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "8_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "9_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "25_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "30_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "32_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 104
   },
   "35_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 101
   },
   "41_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "48_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "49_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "56_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "57_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "58_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_1": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "8_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "9_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "32_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "48_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "49_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "56_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "57_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_2": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "8_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "9_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "15_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "32_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "48_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "49_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "56_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "57_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_3": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_4": {
-    "sprite": 6
+    "sprite": 19,
+    "decor": null
   },
   "1_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "2_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "3_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "4_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "5_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "6_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "7_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "8_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "9_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "10_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "11_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "12_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "13_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "14_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "15_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "16_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "17_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "18_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "19_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "20_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "21_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "22_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "23_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "24_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "25_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "26_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "27_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "28_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "29_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "30_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "31_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "32_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "33_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "34_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "35_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "36_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "37_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "38_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "39_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "40_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "41_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "42_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "43_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "44_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "45_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "46_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "47_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "48_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "49_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "50_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "51_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "52_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "53_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "54_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "55_4": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "56_4": {
-    "sprite": 6
+    "sprite": 33,
+    "decor": null
   },
   "57_4": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_4": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_4": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_4": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_4": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_4": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_4": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_5": {
-    "sprite": 44
+    "sprite": 57,
+    "decor": null
   },
   "1_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "2_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "3_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "4_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "5_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "6_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "7_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "8_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "9_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "10_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "11_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "12_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "13_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "14_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "15_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "16_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "17_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "18_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "19_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "20_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "21_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "22_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "23_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "24_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "25_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "26_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "27_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "28_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "29_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "30_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "31_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "32_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "33_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "34_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "35_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "36_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "37_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "38_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "39_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "40_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "41_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "42_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "43_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "44_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "45_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "46_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "47_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "48_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "49_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "50_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "51_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "52_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "53_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "54_5": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "55_5": {
-    "sprite": 71
+    "sprite": 71,
+    "decor": null
   },
   "56_5": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_5": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_5": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "59_5": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_5": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_5": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_5": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_5": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "8_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "9_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "11_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "18_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 101
   },
   "27_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "32_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "48_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "49_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_6": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_6": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 101
   },
   "58_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 101
   },
   "63_6": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "8_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "9_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "15_7": {
-    "sprite": 65
+    "sprite": 19,
+    "decor": null
   },
   "16_7": {
-    "sprite": 65
+    "sprite": 33,
+    "decor": null
   },
   "17_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_7": {
-    "sprite": 65
+    "sprite": 19,
+    "decor": null
   },
   "32_7": {
-    "sprite": 65
+    "sprite": 33,
+    "decor": null
   },
   "33_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 101
   },
   "39_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_7": {
-    "sprite": 65
+    "sprite": 19,
+    "decor": null
   },
   "48_7": {
-    "sprite": 65
+    "sprite": 33,
+    "decor": null
   },
   "49_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 101
   },
   "54_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_7": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_7": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_7": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "8_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "9_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_8": {
-    "sprite": 65
+    "sprite": 57,
+    "decor": null
   },
   "16_8": {
-    "sprite": 65
+    "sprite": 62,
+    "decor": null
   },
   "17_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_8": {
-    "sprite": 65
+    "sprite": 57,
+    "decor": null
   },
   "32_8": {
-    "sprite": 65
+    "sprite": 62,
+    "decor": null
   },
   "33_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_8": {
-    "sprite": 65
+    "sprite": 57,
+    "decor": null
   },
   "48_8": {
-    "sprite": 65
+    "sprite": 62,
+    "decor": null
   },
   "49_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 104
   },
   "51_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_8": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_8": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "62_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_8": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 104
   },
   "7_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "8_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "9_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "28_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "32_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "44_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "48_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "49_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_9": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_9": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_9": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_10": {
-    "sprite": 6
+    "sprite": 19,
+    "decor": null
   },
   "8_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "9_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "10_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "11_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "12_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "13_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "14_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "15_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "16_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "17_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "18_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "19_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "20_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "21_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "22_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "23_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "24_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "25_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "26_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "27_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "28_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "29_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "30_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "31_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "32_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "33_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "34_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "35_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "36_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "37_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "38_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "39_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "40_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "41_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "42_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "43_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "44_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "45_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "46_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "47_10": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "48_10": {
-    "sprite": 6
+    "sprite": 33,
+    "decor": null
   },
   "49_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_10": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_10": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_10": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "7_11": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_11": {
-    "sprite": 71
+    "sprite": 71,
+    "decor": null
   },
   "9_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "10_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "11_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "12_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "13_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "14_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "15_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "16_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "17_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "18_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "19_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "20_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "21_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "22_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "23_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "24_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "25_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "26_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "27_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "28_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "29_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "30_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "31_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "32_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "33_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "34_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "35_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "36_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "37_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "38_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "39_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "40_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "41_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "42_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "43_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "44_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "45_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "46_11": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "47_11": {
-    "sprite": 71
+    "sprite": 71,
+    "decor": null
   },
   "48_11": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "49_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "53_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_11": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_11": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "62_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 104
   },
   "63_11": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_12": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_12": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "32_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_12": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "48_12": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "49_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 101
   },
   "55_12": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_12": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_12": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "0_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_13": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_13": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "32_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "42_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_13": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "48_13": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "49_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 101
   },
   "50_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_13": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_13": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "62_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_13": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_14": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_14": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "23_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_14": {
-    "sprite": 65
+    "sprite": 19,
+    "decor": null
   },
   "32_14": {
-    "sprite": 65
+    "sprite": 33,
+    "decor": null
   },
   "33_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_14": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "48_14": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "49_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "50_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_14": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_14": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 101
   },
   "59_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_14": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_15": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_15": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_15": {
-    "sprite": 65
+    "sprite": 57,
+    "decor": null
   },
   "32_15": {
-    "sprite": 65
+    "sprite": 62,
+    "decor": null
   },
   "33_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_15": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "48_15": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "49_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_15": {
-    "sprite": 65
+    "sprite": 19,
+    "decor": null
   },
   "52_15": {
-    "sprite": 65
+    "sprite": 33,
+    "decor": null
   },
   "53_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_15": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_15": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_15": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 104
   },
   "3_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_16": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_16": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_16": {
-    "sprite": 65
+    "sprite": 19,
+    "decor": null
   },
   "14_16": {
-    "sprite": 65
+    "sprite": 6,
+    "decor": null
   },
   "15_16": {
-    "sprite": 65
+    "sprite": 6,
+    "decor": null
   },
   "16_16": {
-    "sprite": 65
+    "sprite": 6,
+    "decor": null
   },
   "17_16": {
-    "sprite": 65
+    "sprite": 6,
+    "decor": null
   },
   "18_16": {
-    "sprite": 65
+    "sprite": 33,
+    "decor": null
   },
   "19_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "32_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "34_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 104
   },
   "38_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_16": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "48_16": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "49_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "51_16": {
-    "sprite": 65
+    "sprite": 57,
+    "decor": null
   },
   "52_16": {
-    "sprite": 65
+    "sprite": 62,
+    "decor": null
   },
   "53_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_16": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_16": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_16": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_17": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_17": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_17": {
-    "sprite": 65
+    "sprite": 14,
+    "decor": null
   },
   "14_17": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "15_17": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "16_17": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "17_17": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "18_17": {
-    "sprite": 65
+    "sprite": 48,
+    "decor": null
   },
   "19_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "32_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_17": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "48_17": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "49_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_17": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_17": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_17": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "4_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_18": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_18": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_18": {
-    "sprite": 65
+    "sprite": 14,
+    "decor": null
   },
   "14_18": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "15_18": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "16_18": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "17_18": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "18_18": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "19_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "20_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "21_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "22_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "23_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "24_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "25_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "26_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "27_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "28_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "29_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "30_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "31_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "32_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "33_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "34_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "35_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "36_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "37_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "38_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "39_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "40_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "41_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "42_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "43_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "44_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "45_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "46_18": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "47_18": {
-    "sprite": 71
+    "sprite": 71,
+    "decor": null
   },
   "48_18": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "49_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_18": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_18": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_18": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_19": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_19": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 104
   },
   "10_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_19": {
-    "sprite": 65
+    "sprite": 14,
+    "decor": null
   },
   "14_19": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "15_19": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "16_19": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "17_19": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "18_19": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "19_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "20_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "21_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "22_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "23_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "24_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "25_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "26_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "27_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "28_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "29_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "30_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "31_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "32_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "33_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "34_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "35_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "36_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "37_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "38_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "39_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "40_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "41_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "42_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "43_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "44_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "45_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "46_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "47_19": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "48_19": {
-    "sprite": 44
+    "sprite": 62,
+    "decor": null
   },
   "49_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "51_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_19": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_19": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_19": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_20": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_20": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_20": {
-    "sprite": 65
+    "sprite": 14,
+    "decor": null
   },
   "14_20": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "15_20": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "16_20": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "17_20": {
-    "sprite": 65
+    "sprite": 71,
+    "decor": null
   },
   "18_20": {
-    "sprite": 65
+    "sprite": 48,
+    "decor": null
   },
   "19_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "32_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "48_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "49_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_20": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_20": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "59_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_20": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_21": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_21": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_21": {
-    "sprite": 65
+    "sprite": 57,
+    "decor": null
   },
   "14_21": {
-    "sprite": 65
+    "sprite": 44,
+    "decor": null
   },
   "15_21": {
-    "sprite": 65
+    "sprite": 44,
+    "decor": null
   },
   "16_21": {
-    "sprite": 65
+    "sprite": 44,
+    "decor": null
   },
   "17_21": {
-    "sprite": 65
+    "sprite": 44,
+    "decor": null
   },
   "18_21": {
-    "sprite": 65
+    "sprite": 62,
+    "decor": null
   },
   "19_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "32_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "48_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "49_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "52_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_21": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_21": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_21": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "3_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_22": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_22": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 104
   },
   "13_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "32_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "34_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "48_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "49_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_22": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_22": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_22": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_23": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_23": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "15_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 101
   },
   "31_23": {
-    "sprite": 65
+    "sprite": 19,
+    "decor": null
   },
   "32_23": {
-    "sprite": 65
+    "sprite": 33,
+    "decor": null
   },
   "33_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "36_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 101
   },
   "38_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "42_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_23": {
-    "sprite": 65
+    "sprite": 19,
+    "decor": null
   },
   "48_23": {
-    "sprite": 65
+    "sprite": 33,
+    "decor": null
   },
   "49_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_23": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_23": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_23": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_24": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_24": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "17_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "30_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_24": {
-    "sprite": 65
+    "sprite": 57,
+    "decor": null
   },
   "32_24": {
-    "sprite": 65
+    "sprite": 62,
+    "decor": null
   },
   "33_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_24": {
-    "sprite": 65
+    "sprite": 57,
+    "decor": null
   },
   "48_24": {
-    "sprite": 65
+    "sprite": 62,
+    "decor": null
   },
   "49_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "53_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_24": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_24": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "58_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_24": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_25": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_25": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "14_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "26_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "32_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "48_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "49_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_25": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_25": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_25": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_26": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_26": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "9_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "15_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "16_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "32_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "48_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "49_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_26": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "56_26": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_26": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_27": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_27": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_27": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_27": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_27": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_27": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_27": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_27": {
-    "sprite": 14
+    "sprite": 14,
+    "decor": null
   },
   "8_27": {
-    "sprite": 71
+    "sprite": 71,
+    "decor": null
   },
   "9_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "10_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "11_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "12_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "13_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "14_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "15_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "16_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "17_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "18_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "19_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "20_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "21_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "22_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "23_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "24_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "25_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "26_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "27_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "28_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "29_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "30_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "31_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "32_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "33_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "34_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "35_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "36_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "37_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "38_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "39_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "40_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "41_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "42_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "43_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "44_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "45_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "46_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "47_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "48_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "49_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "50_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "51_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "52_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "53_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "54_27": {
-    "sprite": 6
+    "sprite": 6,
+    "decor": null
   },
   "55_27": {
-    "sprite": 71
+    "sprite": 71,
+    "decor": null
   },
   "56_27": {
-    "sprite": 48
+    "sprite": 48,
+    "decor": null
   },
   "57_27": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_27": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_27": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_27": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_27": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_27": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_27": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_28": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_28": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_28": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_28": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_28": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_28": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_28": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_28": {
-    "sprite": 44
+    "sprite": 57,
+    "decor": null
   },
   "8_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "9_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "10_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "11_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "12_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "13_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "14_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "15_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "16_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "17_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "18_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "19_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "20_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "21_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "22_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "23_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "24_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "25_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "26_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "27_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "28_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "29_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "30_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "31_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "32_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "33_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "34_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "35_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "36_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "37_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "38_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "39_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "40_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "41_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "42_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "43_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "44_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "45_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "46_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "47_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "48_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "49_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "50_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "51_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "52_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "53_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "54_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "55_28": {
-    "sprite": 44
+    "sprite": 44,
+    "decor": null
   },
   "56_28": {
-    "sprite": 44
+    "sprite": 62,
+    "decor": null
   },
   "57_28": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_28": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_28": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_28": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_28": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_28": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_28": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "5_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "8_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "9_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "14_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "16_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 101
   },
   "22_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 105
   },
   "29_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "32_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 104
   },
   "34_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "48_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "49_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 101
   },
   "51_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "56_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "57_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 101
   },
   "61_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_29": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "8_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "9_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "16_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "27_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "32_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "33_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "45_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "48_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "49_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "56_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "57_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "58_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_30": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "0_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "1_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "2_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "3_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "4_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "5_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "6_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "7_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 103
   },
   "8_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "9_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "10_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "11_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "12_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "13_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "14_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "15_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 104
   },
   "16_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "17_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "18_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "19_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "20_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "21_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "22_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "23_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "24_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "25_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "26_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 102
   },
   "27_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "28_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "29_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "30_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "31_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "32_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "33_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "34_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "35_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "36_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "37_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "38_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "39_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "40_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "41_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "42_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "43_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "44_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "45_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "46_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "47_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 104
   },
   "48_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "49_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "50_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "51_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "52_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "53_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "54_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "55_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "56_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "57_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": 104
   },
   "58_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "59_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "60_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "61_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "62_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   },
   "63_31": {
-    "sprite": 70
+    "sprite": 70,
+    "decor": null
   }
 }

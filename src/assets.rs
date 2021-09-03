@@ -7,6 +7,8 @@ use std::collections::HashMap;
 pub struct Assets {
     towers: HashMap<String, graphics::Image>,
     default_tower: graphics::Image,
+    decors: HashMap<String, graphics::Image>,
+    default_decor: graphics::Image,
     tiles: HashMap<String, graphics::Image>,
     default_tile: graphics::Image,
     enemies: HashMap<String, graphics::Image>,
@@ -35,6 +37,13 @@ impl Assets {
         tiles.insert("70".to_string(), graphics::Image::new(ctx, "/70.png")?);
         tiles.insert("71".to_string(), graphics::Image::new(ctx, "/71.png")?);
 
+        let mut decors: HashMap<String, graphics::Image> = HashMap::new();
+        decors.insert("101".to_string(), graphics::Image::new(ctx, "/101.png")?);
+        decors.insert("102".to_string(), graphics::Image::new(ctx, "/102.png")?);
+        decors.insert("103".to_string(), graphics::Image::new(ctx, "/103.png")?);
+        decors.insert("104".to_string(), graphics::Image::new(ctx, "/104.png")?);
+        decors.insert("105".to_string(), graphics::Image::new(ctx, "/105.png")?);
+
         let mut enemies: HashMap<String, graphics::Image> = HashMap::new();
         enemies.insert("slime_blue".to_string(), graphics::Image::new(ctx, "/slime_blue.png")?);
         enemies.insert("slime_green".to_string(), graphics::Image::new(ctx, "/slime_blue.png")?);
@@ -46,6 +55,7 @@ impl Assets {
         towers.insert("tower_5".to_string(), graphics::Image::new(ctx, "/tower_5.png")?);
 
         let default_tile = graphics::Image::new(ctx, "/default_tile.png")?;
+        let default_decor = graphics::Image::new(ctx, "/101.png")?;
         let default_enemy = graphics::Image::new(ctx, "/default_enemy.png")?;
         let default_tower = graphics::Image::new(ctx, "/tower_disabled.png")?;
         let score_label = graphics::Image::new(ctx, "/score_label.png")?;
@@ -63,6 +73,8 @@ impl Assets {
             default_tower,
             tiles,
             default_tile,
+            decors,
+            default_decor,
             enemies,
             default_enemy,
             score_label,
@@ -125,6 +137,15 @@ impl Assets {
             x
         } else {
             &mut self.default_tile
+            // panic!("The sprite {} was not found in the assets list", sprite_name);
+        };
+    }
+
+    pub(crate) fn get_decor_image(&mut self, mut decor_name: String) -> &graphics::Image {
+        return if let Some(x) = self.decors.get_mut(&decor_name) {
+            x
+        } else {
+            &mut self.default_decor
             // panic!("The sprite {} was not found in the assets list", sprite_name);
         };
     }

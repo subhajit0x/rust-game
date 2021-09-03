@@ -23,6 +23,7 @@ use crate::tower::Tower;
 use std::cmp::{min, max};
 use crate::score_board::ScoreBoard;
 use rand::Rng;
+use serde_json::Value;
 
 struct GameState {
     assets: Assets,
@@ -81,14 +82,24 @@ impl GameState {
 fn draw_map(assets: &mut Assets, ctx: &mut Context, map_json: &mut serde_json::Value) {
     for x in 0..GRID_SIZE.0 {
         for y in 0..GRID_SIZE.1 {
-            let key = format!("{x}_{y}", x = x, y = y);
-            let image = assets.get_tile_image(map_json[key]["sprite"].to_string());
             let dest: ggez::mint::Point2<f32> = GridPosition::new(x as f32, y as f32).into();
-            // let offset: ggez::mint::Point2<f32> = GridPosition::new(4, 4).into();
-            let drawparams = graphics::DrawParam::new()
+            let draw_params = graphics::DrawParam::new()
                 .dest(dest);
-            // .offset(offset);
-            graphics::draw(ctx, image, drawparams);
+
+            {
+                let key = format!("{x}_{y}", x = x, y = y);
+                let tile_image = assets.get_tile_image(map_json[key]["sprite"].to_string());
+                graphics::draw(ctx, tile_image, draw_params);
+            }
+
+            {
+                let key = format!("{x}_{y}", x = x, y = y);
+                let decor: &Value = &map_json[key]["decor"];
+                if !decor.is_null() {
+                    let decor_image = assets.get_decor_image(decor.to_string());
+                    graphics::draw(ctx, decor_image, draw_params);
+                }
+            }
         }
     }
 }
