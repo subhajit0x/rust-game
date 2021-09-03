@@ -5,17 +5,15 @@ use crate::assets::Assets;
 pub struct Nexus {
     position: GridPosition,
     render_position: GridPosition,
-    health: i16,
     pub borders: RectangleBorder,
 }
 
 impl Nexus {
-    pub fn new(health: i16) -> Self {
+    pub fn new() -> Self {
         Nexus {
             position: (16, 19).into(),
             render_position: (13.5, 16.5).into(),
             borders: RectangleBorder::new((13, 15).into(), (17, 21).into()),
-            health,
         }
     }
 

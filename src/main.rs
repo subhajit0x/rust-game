@@ -20,8 +20,9 @@ use serde_json;
 use crate::movement_helpers::{GridPosition, RectangleBorder};
 use ggez::input::mouse::MouseButton;
 use crate::tower::Tower;
-use std::cmp::min;
+use std::cmp::{min, max};
 use crate::score_board::ScoreBoard;
+use rand::Rng;
 
 struct GameState {
     assets: Assets,
@@ -36,6 +37,7 @@ struct GameState {
     gameover: bool,
     last_update: Instant,
     score_board: ScoreBoard,
+    hardness: i32,
 }
 
 impl GameState {
@@ -47,7 +49,7 @@ impl GameState {
             .expect("file should be proper JSON");
 
         let score_board = ScoreBoard::new();
-        let nexus: Nexus = Nexus::new(10);
+        let nexus: Nexus = Nexus::new();
         let towers: Vec<Tower> = vec![
             Tower::new((16, 8).into()),
             Tower::new((32, 8).into()),
@@ -69,18 +71,10 @@ impl GameState {
             honey: 100,
             lives: 3,
             ticks: 0,
+            hardness: 1,
             gameover: false,
             last_update: Instant::now(),
         })
-    }
-
-    pub fn spawn_enemy(mut self) {
-        let enemy = Enemy::new(10);
-        self.enemies.push_back(enemy);
-    }
-
-    pub fn kill_enemy(mut self) {
-        self.enemies.pop_front();
     }
 }
 
@@ -144,13 +138,25 @@ impl event::EventHandler<ggez::GameError> for GameState {
                     total_damage -= health_to_reduce;
 
                     if !front_enemy.is_alive() {
+                        let honey_rewarded: i32 = front_enemy.get_honey_reward();
+                        self.score += honey_rewarded * 3;
+                        self.honey += honey_rewarded;
                         self.enemies.pop_front();
                     }
                 }
 
+                // increase the hardness on every 10 enemies
+                if self.ticks % 70 == 0 {
+                    self.hardness += 1;
+                }
+
                 // spawn the next enemy if its time to do so
                 if self.ticks % 7 == 0 {
-                    let enemy = Enemy::new(10);
+                    let mut rng = rand::thread_rng();
+                    let health_multiply_noise = rng.gen_range(max(1, self.hardness - 2)..self.hardness + 1);
+                    let health_m_noise = rng.gen_range(90..110);
+                    let health_add_noise = rng.gen_range(0..10);
+                    let enemy = Enemy::new(self.hardness, health_multiply_noise * health_m_noise + health_add_noise);
                     self.enemies.push_back(enemy);
                 }
 

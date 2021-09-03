@@ -2,6 +2,7 @@ use ggez::{graphics, Context, GameResult};
 use crate::movement_helpers::{GridPosition, Direction};
 use crate::assets::Assets;
 use ggez::graphics::Color;
+use rand::Rng;
 
 const STARTING_POINT: (i16, i16) = (0, 4);
 const CHECKPOINTS: [(i16, i16); 7] = [
@@ -19,15 +20,17 @@ pub struct Enemy {
     position: GridPosition,
     speed: f32,
     health: i32,
+    hardness: i32,
 }
 
 impl Enemy {
-    pub fn new(health: i32) -> Self {
+    pub fn new(hardness: i32, health: i32) -> Self {
         Enemy {
             checkpoint_index: 0,
             position: STARTING_POINT.into(),
             health,
             speed: 1.0,
+            hardness,
         }
     }
 
@@ -61,6 +64,13 @@ impl Enemy {
 
     pub fn get_health(&self) -> i32 {
         self.health
+    }
+
+    pub fn get_honey_reward(&self) -> i32 {
+        // (self.hardness as f64).log10() as i32 * 100
+        let mut rng = rand::thread_rng();
+        let reward_noise: i32 = rng.gen_range(70..130);
+        self.hardness * reward_noise
     }
 
     pub fn is_alive(&self) -> bool {
