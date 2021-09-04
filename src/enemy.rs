@@ -67,7 +67,6 @@ impl Enemy {
     }
 
     pub fn get_honey_reward(&self) -> i32 {
-        // (self.hardness as f64).log10() as i32 * 100
         let mut rng = rand::thread_rng();
         let reward_noise: i32 = rng.gen_range(70..130);
         self.hardness * reward_noise

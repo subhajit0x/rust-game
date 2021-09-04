@@ -14,20 +14,6 @@ pub struct GridPosition {
     y: f32,
 }
 
-trait ModuloSigned {
-    fn modulo(&self, n: Self) -> Self;
-}
-
-impl<T> ModuloSigned for T
-    where
-        T: std::ops::Add<Output=T> + std::ops::Rem<Output=T> + Clone,
-{
-    fn modulo(&self, n: T) -> T {
-        // Because of our trait bounds, we can now apply these operators.
-        (self.clone() % n.clone() + n.clone()) % n
-    }
-}
-
 impl GridPosition {
     pub fn new(x: f32, y: f32) -> Self {
         GridPosition { x, y }
@@ -112,16 +98,6 @@ impl Direction {
             Direction::Down => Direction::Up,
             Direction::Left => Direction::Right,
             Direction::Right => Direction::Left,
-        }
-    }
-
-    pub fn from_keycode(key: KeyCode) -> Option<Direction> {
-        match key {
-            KeyCode::Up => Some(Direction::Up),
-            KeyCode::Down => Some(Direction::Down),
-            KeyCode::Left => Some(Direction::Left),
-            KeyCode::Right => Some(Direction::Right),
-            _ => None,
         }
     }
 

@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-cargo run
+cargo run 2> /dev/null
