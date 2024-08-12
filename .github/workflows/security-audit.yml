@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - uses: actions-rs/audit-check@v1.2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -28,7 +28,7 @@ jobs:
           path: .
 
       - name: Upload SARIF file to Security tab
-        if: always()  # Ensure this step runs even if vulnerabilities are found
+        if: always()  # Ensure this step runs regardless of the previous steps' success
         uses: github/codeql-action/upload-sarif@v3
         with:
-          sarif_file: audit.sarif  # Assuming audit-check generates this file
+          sarif_file: audit.sarif  # Replace with the correct path to the SARIF file if necessary
