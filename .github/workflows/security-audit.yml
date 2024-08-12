@@ -1,4 +1,3 @@
-
 name: Security Audit
 on:
   pull_request:
@@ -27,3 +26,9 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           path: .
+
+      - name: Upload SARIF file to Security tab
+        if: always()  # Ensure this step runs even if vulnerabilities are found
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: audit.sarif  # Assuming audit-check generates this file
