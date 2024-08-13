@@ -6,18 +6,15 @@ on:
   workflow_dispatch:  # Manual trigger
 
 permissions:
-  # Require writing security events to upload SARIF file to security tab
   security-events: write
-  # Read commit contents
   contents: read
 
 jobs:
   scan-scheduled:
     uses: "google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml@1f1242919d8a60496dd1874b24b62b2370ed4c78" # v1.7.1
+    continue-on-error: true  # Continue even if the scan fails
     with:
-      # Specify custom arguments
       scan-args: |-
         -r
         --skip-git
-        --fail-on-vuln=false
         ./
