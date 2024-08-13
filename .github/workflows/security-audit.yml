@@ -1,4 +1,5 @@
 name: Security Audit
+
 on:
   pull_request:
     paths:
@@ -10,26 +11,29 @@ on:
       - Cargo.lock
   schedule:
     - cron: '0 0 * * *'
-  workflow_dispatch:  
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
 jobs:
   security_audit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Run security audit
-        uses: actions-rs/audit-check@v1.2.0
+      - uses: actions-rs/audit-check@v1.2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true 
+        continue-on-error: true  # Continue even if vulnerabilities are found
+
+      - name: Generate SARIF from audit output
+        run: /home/runner/.cargo/bin/cargo audit --json > audit.sarif
 
       - name: Upload audit result
         uses: actions/upload-artifact@v3
         with:
-          path: .
+          path: audit.sarif
 
       - name: Upload SARIF file to Security tab
-        if: always() 
+        if: always()  # Ensure this step runs regardless of the previous steps' success
         uses: github/codeql-action/upload-sarif@v3
         with:
-          sarif_file: audit.sarif 
+          sarif_file: audit.sarif
